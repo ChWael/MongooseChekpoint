@@ -48,7 +48,7 @@ Model.findOne({name:'Tony'},(err, done)=>{
 });
 
 //Perform New Updates on a Document Using model.findOneAndUpdate():
-Model.findOneAndUpdate({age:18},{$set:{name:'Sarra'}},{new: true},(err, done)=>{
+Model.findOneAndUpdate({age:28},{$set:{name:'Sarra'}},{new: true},(err, done)=>{
     if (err){console.log('Men Down')};
 });
 
